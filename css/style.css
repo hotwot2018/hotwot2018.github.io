@@ -507,75 +507,37 @@ button:focus,
     color : #353e55;
     }
 
-/* ----------------------------------------------
- * Organizer Section
- *-----------------------------------------------*/
- .section-organizer h2 {
-     padding-top: 25px;
- }
+
 
 /* ----------------------------------------------
- * Team Section
+ * Committee Section
  *-----------------------------------------------*/
 
-.team .thumbnail {
-    padding          : 0;
-    line-height      : 22px;
-    background-color : transparent;
-    border           : 0;
-    margin-bottom: 30px;
+.section-committees h2 {
+    padding-top: 25px;
+}
+
+.section-committees h3 {
+    margin-bottom: 0px;
     }
 
-@media (max-width : 767px) {
-    .team .thumbnail {
-        margin-bottom : 30px;
-        }
-    }
-
-.team .thumbnail img {
-    width : 100%;
-    }
-
-.team .thumbnail .caption {
-    padding          : 10px;
-    }
-
-.team .thumbnail h3 {
-    font-size        : 16px;
-    font-weight: bold;
-
-    margin           : 0 40px;
-    text-transform   : uppercase;
-    padding          : 10px 0;
-    }
-
-
-
-.team .thumbnail h3 small {
-    font-size: 14px;
-    color     : #888;
-    display: block;
-    font-weight: normal;
-    }
-
-
-.team .social-links li {
+.section-committees .social-links li {
     display      : inline-block;
     margin-right : 3px;
     }
 
-.team .social-links li:last-child {
+.section-committees .social-links li:last-child {
     margin-right : 0;
     }
 
-.team .social-links li a {
+.section-committees .social-links li a {
     display   : block;
-    font-size : 14px;
+    font-size : 12px;
     color     : #ccc;
     padding   : 0 5px;
     }
 
-.team .social-links li a:hover {
+.section-committees .social-links li a:hover {
     color : #333;
     }
 
