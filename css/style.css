@@ -136,7 +136,7 @@ ul {
 .btn {
     padding        : 10px 30px;
     margin-bottom  : 0;
-    font-size      : 16px;
+    font-size      : 14px;
     border-radius  : 0;
     font-weight    : 500;
     border-width   : 2px;
@@ -148,8 +148,8 @@ ul {
     }
 
 .btn-lg {
-    font-size : 18px;
-    padding   : 15px 30px
+    font-size : 16px;
+    padding   : 15px 15px
     }
 
 /*btn-primary*/
@@ -300,7 +300,7 @@ button:focus,
     }
 
     /* 768 */
-@media (max-width : 768px) {
+@media (max-width : 767px) {
 
     .main-menu .nav li {
         text-align : center;
@@ -308,13 +308,13 @@ button:focus,
 
     .main-menu .nav li a {
         /* padding : 5px 0; */
-        /* color: #0e1555; */
+        color: #0e1555;
         /* font-size: 70%; */
         }
 
     .navbar-collapse {
         margin-top : 10px;
-        /* background: #fff; */
+        background: #fff;
         }
     }
 
@@ -359,7 +359,7 @@ button:focus,
     padding               : 0;
     margin                : 0;
     height                : 100vh;
-    min-height            : 700px;
+    min-height            : 800px;
     vertical-align        : middle;
     position              : relative;
     background-attachment : fixed;
@@ -374,7 +374,7 @@ button:focus,
     top               : 50%;
     left              : 0;
     right             : 0;
-    /* height            : 30%; */
+    height            : 30%;
     width             : 100%;
     margin            : 0 auto;
     padding           : 0 10%;
@@ -404,9 +404,10 @@ button:focus,
     margin-top : 40px;
     }
 
-@media (max-width : 600px) {
+@media (max-width : 991px) {
     .jumbotron .content {
         min-height : auto;
+        top: 40%;
         }
 
     .jumbotron .content h1 {
@@ -414,7 +415,37 @@ button:focus,
         }
 
     .jumbotron .content p.lead {
-        font-size : 12px;
+        font-size : 18px;
+        }
+    }
+
+@media (max-width : 768px) {
+    .jumbotron .content {
+        min-height : auto;
+        top: 30%;
+        }
+
+    .jumbotron .content h1 {
+        font-size : 22px;
+        }
+
+    .jumbotron .content p.lead {
+        font-size : 16px;
+        }
+    }
+
+@media (max-width : 320px) {
+    .jumbotron .content {
+        min-height : auto;
+        top: 30%;
+        }
+
+    .jumbotron .content h1 {
+        font-size : 18px;
+        }
+
+    .jumbotron .content p.lead {
+        font-size : 14px;
         }
     }
 
