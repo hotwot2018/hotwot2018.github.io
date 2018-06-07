@@ -274,7 +274,7 @@ button:focus,
 /*Navigation Style*/
 
 .main-menu .navbar-right {
-    margin-right : -15px;
+    margin-right : -5px;
     }
 
 .main-menu .nav li a {
@@ -295,24 +295,26 @@ button:focus,
 
 @media (max-width : 991px) {
     .main-menu .nav li a {
-        padding-left : 15px;
+        padding-left : 10px;
         }
     }
 
     /* 768 */
 @media (max-width : 768px) {
+
     .main-menu .nav li {
         text-align : center;
         }
 
     .main-menu .nav li a {
-        padding : 5px 0;
-        color: #0e1555;
+        /* padding : 5px 0; */
+        /* color: #0e1555; */
+        /* font-size: 70%; */
         }
 
     .navbar-collapse {
         margin-top : 10px;
-        background: #fff;
+        /* background: #fff; */
         }
     }
 
