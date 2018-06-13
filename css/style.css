@@ -576,7 +576,7 @@ button:focus,
  * sponsor section
  *---------------------------*/
 
- .section-sponsor a img {
+ .section-sponsors a img {
     width              : 100%;
     opacity            : 1;
     -webkit-transition : all 0.8s ease 0s;
@@ -585,12 +585,12 @@ button:focus,
     transition         : all 0.8s ease 0s;
     }
 
-.section-sponsor a:hover img {
+.section-sponsors a:hover img {
     opacity : .5;
     }
 
 @media (max-width : 992px) {
-    .section-sponsor .section-margin {
+    .section-sponsors .section-margin {
         margin-bottom : 30px;
         }
     }
