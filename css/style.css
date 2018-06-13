@@ -38,7 +38,7 @@ Author: uiCookies.com
 # -------------------------------------------------------------------*/
 
 body {
-    font-family : 'Roboto', sans-serif;
+    font-family:  Helvetica,Arial,sans-serif;
     font-size   : 17px;
     line-height : 1.7em;
     color       : #353e55;
@@ -476,9 +476,10 @@ button:focus,
 /*---------------------------
  * CFP Title
  *---------------------------*/
- /* .section-cfp li {
-    type: asd;
- } */
+ .section-cfp p {
+    font-size   : 19px;
+    line-height : 1.7em;
+ }
 
 /* ----------------------------------------------
  * Contact Section
